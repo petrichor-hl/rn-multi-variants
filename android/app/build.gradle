@@ -21,7 +21,7 @@ react {
     //   The list of variants to that are debuggable. For those we're going to
     //   skip the bundling of the JS bundle and the assets. By default is just 'debug'.
     //   If you add flavors like lite, prod, etc. you'll have to list your debuggableVariants.
-    // debuggableVariants = ["liteDebug", "prodDebug"]
+    debuggableVariants = ["devDebug", "qaDebug", "accDebug"]
 
     /* Bundling */
     //   A list containing the node command and its flags. Default is just 'node'.
@@ -79,12 +79,43 @@ android {
 
     namespace "com.multivariants"
     defaultConfig {
-        applicationId "com.multivariants"
+        // applicationId "com.multivariants"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }
+
+    flavorDimensions = ["appName"]
+    productFlavors {
+        dev {
+            // Assigns this product flavor to the "version" flavor dimension.
+            // If you are using only one dimension, this property is optional,
+            // and the plugin automatically assigns all the module's flavors to
+            // that dimension.
+            dimension "appName" // optional
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+            getIsDefault().set(true)    // set to default Active Build Variant
+            resValue "string", "app_name", "DEV"
+        }
+        qa {
+            applicationIdSuffix ".qa"
+            versionNameSuffix "-qa"
+            resValue "string", "app_name", "QA"
+        }
+        acc {
+            applicationIdSuffix ".acc"
+            versionNameSuffix "-acc"
+            resValue "string", "app_name", "ACC"
+        }
+        prod {
+            applicationIdSuffix ".prod"
+            versionNameSuffix "-prod"
+            resValue "string", "app_name", "PROD"
+        }
+    }
+
     signingConfigs {
         debug {
             storeFile file('debug.keystore')
@@ -93,9 +124,11 @@ android {
             keyPassword 'android'
         }
     }
+
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            applicationIdSuffix ".debug"
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -103,6 +136,17 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            applicationIdSuffix ".release"
+        }
+    }
+
+    variantFilter { variant ->
+        def buildType = variant.buildType.name
+        def flavorName = variant.getFlavors()[0].name
+
+        // Skip debug-prod and release-dev variants
+        if ((buildType == "debug" && flavorName == "prod") || (buildType == "release" && flavorName == "dev")) {
+            setIgnore(true)
         }
     }
 }
@@ -117,3 +161,4 @@ dependencies {
         implementation jscFlavor
     }
 }
+
