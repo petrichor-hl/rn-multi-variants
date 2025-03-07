@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MultiVariantsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MultiVariantsTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-MultiVariants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MultiVariants.a */; };
+		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-MultiVariants-MultiVariantsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MultiVariants-MultiVariantsTests.a */; };
+		48F37B32155DF9EC32D5CC6B /* libPods-MultiVariants-MultiVariants-Qa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860BC9E187DFD273BC2E94F5 /* libPods-MultiVariants-MultiVariants-Qa.a */; };
+		563BBD912D76F5D3007717A1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		563BBD922D76F5D3007717A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		563BBD962D76F5D3007717A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		563BBD972D76F5D3007717A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		563BBD982D76F5D3007717A1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		56B886C42D76F52400E85C32 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		56B886C52D76F52400E85C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		56B886C92D76F52400E85C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		56B886CA2D76F52400E85C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		56B886CB2D76F52400E85C32 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8291E09CBCF871BF27D6F913 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		887D7100E01B70122F88A570 /* libPods-MultiVariants-MultiVariants-Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33254B79C771533B2FE68ACD /* libPods-MultiVariants-MultiVariants-Dev.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MultiVariants;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* MultiVariantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiVariantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MultiVariantsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiVariantsTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MultiVariants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVariants.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +38,46 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MultiVariants/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MultiVariants/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MultiVariants-MultiVariantsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVariants-MultiVariantsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33254B79C771533B2FE68ACD /* libPods-MultiVariants-MultiVariants-Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVariants-MultiVariants-Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-MultiVariants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants/Pods-MultiVariants.debug.xcconfig"; sourceTree = "<group>"; };
+		563BBD9F2D76F5D3007717A1 /* MultiVariants-Qa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiVariants-Qa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563BBDA02D76F5D3007717A1 /* MultiVariants-Qa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiVariants-Qa-Info.plist"; path = "/Users/hoanglam/Documents/react-native-dev/MultiVariants/ios/MultiVariants-Qa/MultiVariants-Qa-Info.plist"; sourceTree = "<absolute>"; };
+		56B886D22D76F52400E85C32 /* MultiVariants-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiVariants-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B886D32D76F52400E85C32 /* MultiVariants-Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiVariants-Dev-Info.plist"; path = "/Users/hoanglam/Documents/react-native-dev/MultiVariants/ios/MultiVariants-Dev/MultiVariants-Dev-Info.plist"; sourceTree = "<absolute>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MultiVariants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants/Pods-MultiVariants.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MultiVariants-MultiVariantsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariantsTests.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-MultiVariants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVariants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6680881B46CE88772B562916 /* Pods-MultiVariants-MultiVariants-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Dev.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MultiVariants/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860BC9E187DFD273BC2E94F5 /* libPods-MultiVariants-MultiVariants-Qa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVariants-MultiVariants-Qa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MultiVariants-MultiVariantsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariantsTests.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests.release.xcconfig"; sourceTree = "<group>"; };
+		949BD7AC938B2EFCBCC32C44 /* Pods-MultiVariants-MultiVariants-Qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Qa.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa.release.xcconfig"; sourceTree = "<group>"; };
+		D45A7E9DA5DE0CB11EBF5B2D /* Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2ECE392983649AC7DA96F4 /* Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7699B88040F8A987B510C191 /* libPods-MultiVariants-MultiVariantsTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-MultiVariants.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BBD932D76F5D3007717A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F37B32155DF9EC32D5CC6B /* libPods-MultiVariants-MultiVariants-Qa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B886C62D76F52400E85C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887D7100E01B70122F88A570 /* libPods-MultiVariants-MultiVariants-Dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,10 +119,27 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-MultiVariants.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MultiVariants-MultiVariantsTests.a */,
+				33254B79C771533B2FE68ACD /* libPods-MultiVariants-MultiVariants-Dev.a */,
+				860BC9E187DFD273BC2E94F5 /* libPods-MultiVariants-MultiVariants-Qa.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		563BBD8C2D76F5B5007717A1 /* MultiVariants-Dev */ = {
+			isa = PBXGroup;
+			children = (
+				56B886D32D76F52400E85C32 /* MultiVariants-Dev-Info.plist */,
+			);
+			path = "MultiVariants-Dev";
+			sourceTree = "<group>";
+		};
+		563BBD8D2D76F5C7007717A1 /* MultiVariants-Qa */ = {
+			isa = PBXGroup;
+			children = (
+				563BBDA02D76F5D3007717A1 /* MultiVariants-Qa-Info.plist */,
+			);
+			path = "MultiVariants-Qa";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -119,6 +152,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				563BBD8D2D76F5C7007717A1 /* MultiVariants-Qa */,
+				563BBD8C2D76F5B5007717A1 /* MultiVariants-Dev */,
 				13B07FAE1A68108700A75B9A /* MultiVariants */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MultiVariantsTests */,
@@ -135,7 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* MultiVariants.app */,
-				00E356EE1AD99517003FC87E /* MultiVariantsTests.xctest */,
+				56B886D22D76F52400E85C32 /* MultiVariants-Dev.app */,
+				563BBD9F2D76F5D3007717A1 /* MultiVariants-Qa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +183,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-MultiVariants.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-MultiVariants-MultiVariantsTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-MultiVariants-MultiVariantsTests.release.xcconfig */,
+				EB2ECE392983649AC7DA96F4 /* Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig */,
+				6680881B46CE88772B562916 /* Pods-MultiVariants-MultiVariants-Dev.release.xcconfig */,
+				D45A7E9DA5DE0CB11EBF5B2D /* Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig */,
+				949BD7AC938B2EFCBCC32C44 /* Pods-MultiVariants-MultiVariants-Qa.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -154,27 +194,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MultiVariantsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MultiVariantsTests" */;
-			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
-			);
-			name = MultiVariantsTests;
-			productName = MultiVariantsTests;
-			productReference = 00E356EE1AD99517003FC87E /* MultiVariantsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		13B07F861A680F5B00A75B9A /* MultiVariants */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MultiVariants" */;
@@ -196,6 +215,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* MultiVariants.app */;
 			productType = "com.apple.product-type.application";
 		};
+		563BBD8E2D76F5D3007717A1 /* MultiVariants-Qa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563BBD9C2D76F5D3007717A1 /* Build configuration list for PBXNativeTarget "MultiVariants-Qa" */;
+			buildPhases = (
+				563BBD8F2D76F5D3007717A1 /* [CP] Check Pods Manifest.lock */,
+				563BBD902D76F5D3007717A1 /* Sources */,
+				563BBD932D76F5D3007717A1 /* Frameworks */,
+				563BBD952D76F5D3007717A1 /* Resources */,
+				563BBD992D76F5D3007717A1 /* Bundle React Native code and images */,
+				563BBD9A2D76F5D3007717A1 /* [CP] Embed Pods Frameworks */,
+				563BBD9B2D76F5D3007717A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiVariants-Qa";
+			productName = MultiVariants;
+			productReference = 563BBD9F2D76F5D3007717A1 /* MultiVariants-Qa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56B886C12D76F52400E85C32 /* MultiVariants-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B886CF2D76F52400E85C32 /* Build configuration list for PBXNativeTarget "MultiVariants-Dev" */;
+			buildPhases = (
+				56B886C22D76F52400E85C32 /* [CP] Check Pods Manifest.lock */,
+				56B886C32D76F52400E85C32 /* Sources */,
+				56B886C62D76F52400E85C32 /* Frameworks */,
+				56B886C82D76F52400E85C32 /* Resources */,
+				56B886CC2D76F52400E85C32 /* Bundle React Native code and images */,
+				56B886CD2D76F52400E85C32 /* [CP] Embed Pods Frameworks */,
+				56B886CE2D76F52400E85C32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiVariants-Dev";
+			productName = MultiVariants;
+			productReference = 56B886D22D76F52400E85C32 /* MultiVariants-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,10 +265,6 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
 					};
@@ -227,19 +284,13 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* MultiVariants */,
-				00E356ED1AD99517003FC87E /* MultiVariantsTests */,
+				56B886C12D76F52400E85C32 /* MultiVariants-Dev */,
+				563BBD8E2D76F5D3007717A1 /* MultiVariants-Qa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +298,26 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				8291E09CBCF871BF27D6F913 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563BBD952D76F5D3007717A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BBD962D76F5D3007717A1 /* LaunchScreen.storyboard in Resources */,
+				563BBD972D76F5D3007717A1 /* Images.xcassets in Resources */,
+				563BBD982D76F5D3007717A1 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B886C82D76F52400E85C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B886C92D76F52400E85C32 /* LaunchScreen.storyboard in Resources */,
+				56B886CA2D76F52400E85C32 /* Images.xcassets in Resources */,
+				56B886CB2D76F52400E85C32 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +357,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants/Pods-MultiVariants-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		563BBD8F2D76F5D3007717A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,11 +372,133 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MultiVariants-MultiVariantsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MultiVariants-MultiVariants-Qa-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563BBD992D76F5D3007717A1 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		563BBD9A2D76F5D3007717A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563BBD9B2D76F5D3007717A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B886C22D76F52400E85C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiVariants-MultiVariants-Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B886CC2D76F52400E85C32 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		56B886CD2D76F52400E85C32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B886CE2D76F52400E85C32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -330,23 +523,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,34 +540,9 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants/Pods-MultiVariants-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* MultiVariantsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,68 +552,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		563BBD902D76F5D3007717A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563BBD912D76F5D3007717A1 /* AppDelegate.mm in Sources */,
+				563BBD922D76F5D3007717A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56B886C32D76F52400E85C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B886C42D76F52400E85C32 /* AppDelegate.mm in Sources */,
+				56B886C52D76F52400E85C32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MultiVariants */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-MultiVariants-MultiVariantsTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MultiVariantsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiVariants.app/MultiVariants";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-MultiVariants-MultiVariantsTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MultiVariantsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiVariants.app/MultiVariants";
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MultiVariants.debug.xcconfig */;
@@ -512,6 +622,114 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MultiVariants;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		563BBD9D2D76F5D3007717A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45A7E9DA5DE0CB11EBF5B2D /* Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "MultiVariants-Qa/MultiVariants-Qa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		563BBD9E2D76F5D3007717A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949BD7AC938B2EFCBCC32C44 /* Pods-MultiVariants-MultiVariants-Qa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "MultiVariants-Qa/MultiVariants-Qa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		56B886D02D76F52400E85C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2ECE392983649AC7DA96F4 /* Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "MultiVariants-Dev/MultiVariants-Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		56B886D12D76F52400E85C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6680881B46CE88772B562916 /* Pods-MultiVariants-MultiVariants-Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "MultiVariants-Dev/MultiVariants-Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -586,10 +804,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -658,10 +873,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -672,20 +884,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MultiVariantsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MultiVariants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563BBD9C2D76F5D3007717A1 /* Build configuration list for PBXNativeTarget "MultiVariants-Qa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563BBD9D2D76F5D3007717A1 /* Debug */,
+				563BBD9E2D76F5D3007717A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B886CF2D76F52400E85C32 /* Build configuration list for PBXNativeTarget "MultiVariants-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B886D02D76F52400E85C32 /* Debug */,
+				56B886D12D76F52400E85C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

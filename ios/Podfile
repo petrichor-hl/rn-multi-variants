@@ -23,9 +23,12 @@ target 'MultiVariants' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'MultiVariantsTests' do
+  target 'MultiVariants-Dev' do
     inherit! :complete
-    # Pods for testing
+  end
+
+  target 'MultiVariants-Qa' do
+    inherit! :complete
   end
 
   post_install do |installer|
