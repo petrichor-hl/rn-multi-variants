@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C80B921A6F3F58F76C31292 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -22,6 +22,7 @@
 		56B886C92D76F52400E85C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		56B886CA2D76F52400E85C32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		56B886CB2D76F52400E85C32 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		65B9B44160F30B61EAA428B6 /* libPods-MultiVariants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD62CF0E236226B5653DB829 /* libPods-MultiVariants.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8291E09CBCF871BF27D6F913 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		887D7100E01B70122F88A570 /* libPods-MultiVariants-MultiVariants-Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33254B79C771533B2FE68ACD /* libPods-MultiVariants-MultiVariants-Dev.a */; };
@@ -52,6 +53,7 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-MultiVariants-MultiVariantsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariantsTests.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariantsTests/Pods-MultiVariants-MultiVariantsTests.release.xcconfig"; sourceTree = "<group>"; };
 		949BD7AC938B2EFCBCC32C44 /* Pods-MultiVariants-MultiVariants-Qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Qa.release.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa.release.xcconfig"; sourceTree = "<group>"; };
 		D45A7E9DA5DE0CB11EBF5B2D /* Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Qa/Pods-MultiVariants-MultiVariants-Qa.debug.xcconfig"; sourceTree = "<group>"; };
+		DD62CF0E236226B5653DB829 /* libPods-MultiVariants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVariants.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2ECE392983649AC7DA96F4 /* Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig"; path = "Target Support Files/Pods-MultiVariants-MultiVariants-Dev/Pods-MultiVariants-MultiVariants-Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -61,7 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* (null) in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				65B9B44160F30B61EAA428B6 /* libPods-MultiVariants.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +125,7 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MultiVariants-MultiVariantsTests.a */,
 				33254B79C771533B2FE68ACD /* libPods-MultiVariants-MultiVariants-Dev.a */,
 				860BC9E187DFD273BC2E94F5 /* libPods-MultiVariants-MultiVariants-Qa.a */,
+				DD62CF0E236226B5653DB829 /* libPods-MultiVariants.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -804,7 +808,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -873,7 +880,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
