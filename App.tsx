@@ -10,6 +10,7 @@ function App(): React.JSX.Element {
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
+  console.log('Config.ENV = ' + Config.ENV);
 
   return (
     <SafeAreaView style={backgroundStyle}>

@@ -11,8 +11,6 @@
     "android-dev": "react-native run-android --mode=devDebug",
     "android-qaDebug": "react-native run-android --mode=qaDebug",
     "android-qaRelease": "react-native run-android --mode=qaRelease",
-    "android-accDebug": "react-native run-android --mode=accDebug",
-    "android-accRelease": "react-native run-android --mode=accRelease",
     "android-prod": "react-native run-android --mode=prodRelease"
   },
   "dependencies": {

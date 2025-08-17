@@ -2,6 +2,13 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [  
+    dev: ".env.dev",
+    qa: ".env.qa",
+    prod: ".env.prod"
+]
+
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -84,6 +91,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        resValue "string", "build_config_package", "com.multivariants"
     }
 
     flavorDimensions = ["appName"]
@@ -103,11 +111,6 @@ android {
             applicationIdSuffix ".qa"
             versionNameSuffix "-qa"
             resValue "string", "app_name", "QA"
-        }
-        acc {
-            applicationIdSuffix ".acc"
-            versionNameSuffix "-acc"
-            resValue "string", "app_name", "ACC"
         }
         prod {
             applicationIdSuffix ".prod"
